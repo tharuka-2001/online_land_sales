@@ -1,0 +1,46 @@
+.submitbtn a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+input {
+    width: 30%;
+    margin: 8px;
+    border: 1.5px solid #080808;
+    border-radius: 4px;
+    background-color: #9f9f9f;
+    padding: 20px 30px;
+}
+
+.submitbtn {
+    background-color: rgb(2, 84, 2);
+    padding: 15px 30px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+label {
+    font-size: 28px;
+}
+
+.usertite {
+    background-color: black;
+    color: white;
+}
+
+.field {
+    background-color: #E2FFFF;
+}
+
+.backbtn {
+    background-color: rgb(2, 112, 35);
+    padding: 15px 30px;
+    color: white;
+}
+
+.backbtn a {
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,128 @@
+.profilehead {
+    width: 100px;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.savebtn {
+    width: 200px;
+    margin-top: 10px;
+    padding: 10px;
+    display: block;
+    font-size: 20px;
+    color: #f2f4f8;
+    border: none;
+    border-radius: 20px;
+    background: #278e2b;
+}
+
+.deletebtn {
+    width: 200px;
+    margin-top: 10px;
+    padding: 10px;
+    display: block;
+    font-size: 20px;
+    color: #f2f4f8;
+    border: none;
+    border-radius: 20px;
+    background: #a90202;
+}
+
+.savebtn:hover {
+    background: #28b947;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.input {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    padding-bottom: 15px;
+
+}
+
+.input:nth-child(2n) {
+    justify-content: end;
+}
+
+.input label {
+    width: 95%;
+    color: #2f4f4f;
+    font-weight: bold;
+
+}
+
+.input input {
+    height: 40px;
+    width: 95%;
+    padding: 0px 100px;
+    border-radius: 5px;
+    margin: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.input input:is(:focus, :valid) {
+    box-shadow: 0 3px 6px rgba(57, 134, 229, 0.5);
+}
+
+.container2 {
+    width: 100%;
+    max-width: 850px;
+    padding: 130px;
+    margin: auto;
+
+}
+
+.container3 {
+
+    padding: 28px;
+    margin: auto;
+    box-shadow: 0 15px 20px #4d4d4b;
+}
+
+.content {
+
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.headerform {
+    font-size: 26px;
+    font-weight: 600;
+    text-align: left;
+    color: #2f4f4f;
+    padding-bottom: 8px;
+    border-bottom: 1px solid silver;
+}
+
+.exitbtn {
+    width: 150px;
+    margin-top: 10px;
+    padding: 10px;
+    display: block;
+    font-size: 20px;
+    color: #f2f4f8;
+    border: none;
+    border-radius: 20px;
+    background: #278e2b;
+}
+
+.exitbtn a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+
+.exitbtn:hover {
+    background: #28b947;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.return {
+    padding: 40px;
+    background-color: #28b947;
+}
